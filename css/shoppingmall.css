@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 50px 850px;
+}
+header img {
+    width: 200px;
+}
+
+
+
+.nav1 nav ul {
+    list-style: none;
+    overflow: hidden;
+    background-color: rgb(245, 247, 197);
+    color: rgb(76, 74, 88);
+    font-weight: 700;
+    font-size: large;
+    padding-left: 400px;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.nav1 nav ul li {
+    float: left;
+    margin: 20px;
+    padding: 0 30px
+}
+.nav1 nav ul li:hover {
+    cursor: pointer;
+}
+.nav1 nav ul a:visited {
+    color: rgb(76, 74, 88);
+}
+
+aside {
+    overflow: hidden;
+    background-color: rgb(48, 47, 49);
+    position: relative;
+ 
+}
+aside img {
+    width: 500px;
+    float: left;
+    margin-left: 400px;
+    margin-right: 50px;
+}
+aside .text {
+    color: whitesmoke;
+    margin: 100px 0;
+    
+}
+aside .text h2 {
+    font-size: 35px;
+    font-weight: 550;
+    letter-spacing: -5px;
+}
+aside .text h1 {
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: -5px;
+}
+aside .text a {
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: -2px;
+    margin: 50px 230px;
+}
+aside i {
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+
+
+section {
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-bottom: 90px;
+
+    }
+section article {
+    float: left;
+    padding: 20px;
+}
+section {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+.sec1 img {
+    display: block;
+
+    }
+.sec1 p {
+    font-size: 20px;
+    font-weight: 650;
+    color: rgb(76, 74, 88);
+    margin-bottom: 20px;
+    text-align: right;
+  
+}    
+section h1 {
+    font-size: 35px;
+    padding: 20px 0;
+}
+
+section img {
+    width: 450px;
+    }
+    .sec1 img:hover {
+        cursor: pointer;
+        opacity: 80%;
+    }
+
+    footer {
+        background-color: rgb(175, 177, 120);
+        font-size: 15px;
+        padding: 10px;
+        color: whitesmoke;
+        text-align: center;
+        margin-top: 200px;
+        
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.5);
+    }
+    footer .foot1 {
+        padding-bottom: 10px;
+    }
+   
+    .loginbox {
+        background-color: rgb(247, 250, 211);
+        width: 500px;
+        margin: 30px auto;
+        border-radius: 20px;
+        padding: 30px;
+    }
+    .login {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 60px;
+    }
+
+    .loginbox form {
+        padding-top: 30px;
+        padding-left: 60px;
+    }
+    .loginbox input {
+        border: 1px solid darkgray;
+        background-color: rgb(247, 250, 211) ;
+        border-radius: 10px;
+        width: 300px;
+        margin: 10px ;
+        padding: 20px;
+        font-size: 15px;
+        color: darkgray;
+    }
+    .loginbox form .logbtn {
+        background-color: black;
+        margin-left: 30px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .loginbox form .logbtn:hover {
+        cursor: pointer;
+    }
+  
+    
+    .loginbox .a {
+        margin: 30px;
+        margin-left: 100px;
+    }
+    .loginbox .a a {
+         text-decoration: none;
+         color: black;
+    }
+    .bestban {
+        margin: 0;
+    }
+
+    main {
+        width: 1200px;
+        margin: 0 230px;
+    }
+
+    main h1 {
+        font-size: 40px;
+        margin: 50px 40px ;
+        font-weight: 800;
+    }
+    .bestban img {
+        width: 340px;
+        margin-bottom: 15px;
+    }
+    .bestban img:hover {
+        /* width: 350px; */
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+    }
+    
+
+main .nav2 {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+    .nav2 ul li {
+        list-style: none;
+        float: left;
+        margin: 10px;
+    }
+    .nav2 ul li:hover {
+        cursor: pointer;
+        border-bottom: 2px solid darkgray;
+    }
+
+    .bestban div {
+        float: left;
+        margin: 25px;
+    }
+
+    main .option img {
+        float: left; 
+        margin-right: 70px;        
+    } 
+
+    main .option .namebox h1 {
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    main .option .namebox hr {
+        padding: 1px;
+        border-style: none;
+        background-color: lightgray; 
+        margin-bottom: 20px;        
+    }
+
+    .option .namebox p {
+        margin: 20px;
+    }
+    #main1 {
+        margin-left: 380px;
+    }
+
+    main select {
+        margin: 30px;
+        padding: 5px ;
+        font-size: 15px;
+    }
+
+    main button {
+        margin: 40px 5px;
+        padding: 15px 35px;
+        font-size: 20px;
+        font-weight: 700;
+        border-style: none;
+    }
+    main button:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+   
+  .detailtitle h2 {
+      float: left;
+      margin-left: 50px;
+      padding: 10px 40px;
+      color: lightgray;
+  }
+
+  .detailtitle {
+      margin-top: 0;
+  }
+  .detailtitle h2:hover {
+      cursor: pointer;
+      border-bottom: 2px solid gray;
+      color: rgb(76, 74, 88);
+  }
+  /* .detailtitle hr {
+      border-style: 1px solid lightgray;
+  } */
+
+  .hr {
+      margin-top: 0;
+  }
+
+  .detail img{ 
+      width: 800px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  .detail {
+      text-align: center;
+      color:rgb(76, 74, 88) ;
+        }
+.detail p {
+    font-size: 20px;
+}
+
+  .bucketban img {
+    width: 250px;
+    margin-bottom: 10px;
+ }
+ .bucketban div {
+     float: left;
+     margin: 20px;
+ }
+ .bucketban {
+     margin-left: 0;
+ }
+ .bucketban h4 {
+     color: gray;
+ }
+
+ .bucketban img:hover {
+     cursor: pointer;
+     opacity: 60%;
+ }
+
+ .bucketban {
+     margin-top: 0;
+     margin-bottom: 20px;
+ }
+.bucketban .btnbox {
+    margin-top: 0;
+}
+
+
+.orderbtn {
+    background-color: black;
+    color: white;
+}
+.orderbtn:hover {
+    background-color: lightgray;
+    color:black;
+}
+
+
+.orderbox h3, .orderbox h2, .orderbox button{
+    float: left;
+    
+}
+.orderbox h2 {
+    margin-top: 9px;
+}
+.orderbox h3 {
+    margin-top: 20px;
+}
+
+.ordersec .orderbox {
+    width: 960px;
+    margin-right: 0;
+}
+.orderbox button {
+    margin-top: 0;
+}
+.ordersec {
+    margin: 0;
+}
+.orderbox h2 {
+    color: red;
+    font-size: 30px;
+}
+
+.orderbox {
+    padding-left: 750px;
+    }
+    .orderbox h3 {
+        padding-right: 20px;
+    }
+    .orderbox h2 {
+        padding-right: 20px;
+    }
+ 
+
+
+    
